@@ -1,72 +1,41 @@
-# 💻 Sistema de Solicitação de Serviços de TI
+# Sistema de Gestão de Orçamentos - Empresa de Serviços de TI
 
-Projeto desenvolvido com foco em estruturação de sistemas web e futura integração com banco de dados relacional.
+Este projeto foi desenvolvido para gerenciar solicitações de orçamento de uma empresa de serviços de TI.
 
-Atualmente o projeto contém a interface front-end e está em evolução para se tornar um sistema completo com backend e persistência de dados.
+O sistema permite que clientes enviem pedidos de orçamento através do site e que o administrador visualize e gerencie essas solicitações.
 
----
+## Tecnologias utilizadas
 
-## 🚀 Tecnologias Utilizadas
+Backend
 
-- HTML5
-- CSS3
-- Estrutura semântica
-- Flexbox
-- Responsividade
+* Java
+* Spring Boot
+* API REST
+* MySQL
+* Gradle
 
----
+Frontend
 
-## 📱 Funcionalidades Atuais
+* HTML
+* CSS
 
-- Página institucional com apresentação de serviços
-- Layout moderno com cards
-- Página de contato com formulário
-- Navegação entre páginas
+## Funcionalidades
 
----
+* Envio de solicitação de orçamento
+* Armazenamento das solicitações no banco de dados
+* Painel administrativo para visualizar orçamentos
+* Marcar orçamento como concluído
+* Integração entre frontend e API
 
-## 🗄 Planejamento de Banco de Dados
+## Estrutura do projeto
 
-O projeto evoluirá para um sistema com banco de dados relacional contendo:
+BACKEND
+API REST desenvolvida com Spring Boot responsável pelas regras de negócio e comunicação com o banco de dados.
 
-- Tabela `clientes`
-- Tabela `servicos`
-- Tabela `solicitacoes`
-- Relacionamento entre entidades via chaves estrangeiras
+FRONTEND
+Interface do sistema desenvolvida em HTML e CSS que consome os endpoints da API.
 
-A modelagem será implementada utilizando  MySQL ou PostgreSQL.
+## Autor
 
----
-
-## 🔮 Roadmap do Projeto
-
-### Versão 2.0
-- Implementação de JavaScript
-- Validação personalizada do formulário
-- Melhorias na responsividade
-
-### Versão 3.0
-- Criação de backend com Node.js e Express
-- Integração com banco de dados relacional
-- Armazenamento real das mensagens enviadas
-- Criação de API REST
-
----
-
-## 🎯 Objetivo do Projeto
-
-Demonstrar conhecimentos em:
-
-- Estruturação de sistemas web
-- Organização de código
-- Planejamento de modelagem de banco de dados
-- Evolução para arquitetura backend + banco relacional
-  
-## 📌 Estrutura do Projeto
-```
-/index.html
-/contato.html
-/style.css
-/database (em desenvolvimento)
-/README.md
-```
+Giliane Rodrigues
+Estudante de Análise e Desenvolvimento de Sistemas
