@@ -47,5 +47,15 @@ Interface do sistema desenvolvida em HTML e CSS que consome os endpoints da API.
 ![Painel Admin](screenshots/admin.png)
 ## Autor
 
+## Como rodar o projeto
+
+1. Clonar o repositório
+git clone https://github.com/giliane-23/empresa-servicos-ti
+
+2. Abrir no IntelliJ ou VS Code
+
+3. Rodar o projeto
+mvn spring-boot:run
+
 Giliane Rodrigues
 Estudante de Análise e Desenvolvimento de Sistemas
